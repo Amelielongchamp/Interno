@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* propritété flex box */
 .flex {
 
     display: flex;
@@ -15,15 +16,24 @@
     justify-content: space-between;
 }
 
+/* propritété flex box */
+.gap20{
+    gap: 20px;
+}
+
 .alignCenter {
 
-    align-items: center;
+    align-items:center;
 }
 
 .container {
 
     max-width: 1000px;
     margin: auto;
+}
+
+.bold{
+ font-weight:700;
 }
 
 /* HEADER*/
@@ -54,6 +64,10 @@ li {
     list-style: none;
 }
 
+.img{
+    
+}
+
 /*HERO*/
 .hero {
     background-image: url("assets/Banner.jpg");
@@ -70,6 +84,7 @@ h1 {
 h2{
     font-family: "Jost", sans-serif;;
 font-size: 50px;
+width: 100%;
 }
 
 p{
@@ -77,5 +92,57 @@ font-family: "Jost", sans-serif;
 font-size: 12px;
 }
 
-/* section 2 */
+/* avis clients*/
+.sectionClient{
+    background-color:#F4F0EC;
+    padding-top: 60px;
+    padding-bottom:60px;
+}
 
+.paddingTop150{
+    padding-top: 150px;
+}
+
+.card{
+ 
+    background-color:white;
+    padding: 16px;
+    border-radius: 16px;
+}
+/* section projet*/
+
+.cardProjet{
+
+
+}
+
+.width45{
+    width:45%;
+}
+
+.cardProjet>img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.marginBottom{
+
+    margin-bottom: 16px;
+}
+
+.cardProjet>a{
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    background-color: pink;
+    width: 70px;
+    height:70px;
+    border-radius: 100px;
+}
+
+.containerCardProjet{
+
+margin-top:50px;
+}
